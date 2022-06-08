@@ -7,40 +7,47 @@
     <title>Document</title>
     <style>
 * {
+background-color: light;
 font-family: Helvetica, sans-serif;
 
 }
 .navbar {
 display: flex;
-justify-content:space-around;
+justify-content:space-between;
 width: 90%;
 height:50px;
 margin-left: 5%;
 margin-right: 5%;
 background:darkolivegreen;
-color:antiquewhite;
+color:whitesmoke;
 align-items:center
 }
 a:link {
 padding: 10px;
-color:antiquewhite;
+color:lightgray;
 text-decoration:none;
 align-items: center;
 }
 #logo {
-padding: 10px;
-font-size:large;
+font-size: larger;
+font-weight: 600;
+padding-left: 80px;
+padding-top: 10px;
+padding-bottom: 10px;
 align-items: left;
 }
 #links
 {
+padding-right: 70px;
+padding-top: 10px;
+padding-bottom: 10px;
 display:flex;
 }
 .parttwo {
 display: flex;
-justify-content:center;
+justify-content:space-between;
 width: 90%;
-height:50px;
+height:auto;
 padding-top: 50px;
 padding-bottom: 50px;
 margin-left: 5%;
@@ -49,25 +56,86 @@ background:darkolivegreen;
 color:antiquewhite;
 align-items:center;
 }
+.twoleft {
+padding-left: 80px;
+width:37%;
+text-align: justify;
+}
+.tworight {
+padding-right: 80px;
+width: 37%;
 
+}
+.partthree{
+display: flex;
+width: 90%;
+height:auto;
+padding-top: 50px;
+text-align: center;
+padding-bottom: 30px;
+margin-left: 5%;
+margin-right: 5%;
+background:rgb(255, 255, 255);
+justify-content: space-evenly;
+}
+.part3img{
+    max-width: 150px;
+}
+.part3img img{
+    border-width: 4px;
+    border-radius: 10%;
+    border-color:lightskyblue;
+    border-style: solid;
+   
+}
+.part4{
+background-color: gainsboro;
+margin-left: 5%;
+margin-right: 5%;
+padding-top: 100px;
+padding-bottom: 100px;
+padding-left: 100px;
+padding-right: 100px;
+justify-content: center;
+
+text-align: center;
+}
     </style>
 </head>
 <body>
     <div class=navbar>
-        <div id='logo'>Cooleo Logo</div>
+        <div id='logo'>Header Logo</div>
         <div id='links'>
-        <a href='about.html'>Link One</a>
-        <a href='about.html'>Link Two</a>
-        <a href='about.html'>Link Three</a>
+        <a href='index.html'>Link One</a>
+        <a href='index.html'>Link Two</a>
+        <a href='index.html'>Link Three</a>
     </div>
     </div>
     <div class='parttwo'>
         <div class='twoleft'>
-        hello there
+        <h1>This website is awesome.</h1>
+        This website has some subtext that goes under the main title. It's smaller font and the colour is lower contrast.<br><br>
+        <button type="button">Sign Up</button>
         </div>
         <div class='tworight'>
-        hello Three
+        <img width='100%' src='stock.jpg'></img>
         </div>
+  
+
+    </div>
+    <div class='partthree'>
+        <h1>This is some random text or something.</h1>
+    </div>
+    <div class='partthree'>
+        <div class='part3img'><img width='145px' src='stock.jpg'></img><br>this is some subtext under an illustration or image</div>
+        <div class='part3img'><img width='145px' src='stock.jpg'></img><br>this is some subtext under an illustration or image</div>
+        <div class='part3img'><img width='145px' src='stock.jpg'></img><br>this is some subtext under an illustration or image</div>
+        <div class='part3img'><img width='145px' src='stock.jpg'></img><br>this is some subtext under an illustration or image</div>
+    </div>
+    <div class='part4'>
+        <p style="font-size: xx-large"> <i>This is a big long quote about thor or something and its also in italics and its got even more content so you know its important</i></p>
+        <p style="font-size: x-large;text-align: right;"><b>-Thor, God of Thunder</b></p>
+    <div class="part5">
 
     </div>
 </body>
